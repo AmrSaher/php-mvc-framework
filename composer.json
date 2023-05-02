@@ -1,0 +1,12 @@
+{
+    "require": {
+        "ramsey/uuid": "^4.6",
+        "ext-pdo_mysql": "*",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
